@@ -6,7 +6,7 @@
             let userName = prompt("Enter your character name!");
             startCombat(userName);
         } else if (answer.toLowerCase() === "no") {
-            console.log("GOOD CALL. This game suuuuuuuuucks.");
+            console.log("That's okay, maybe we can play later?");
         }
     }
 
@@ -30,14 +30,14 @@
                 } else if (grantHealth <= 0) {
                     wins++;
                     if (wins === 3) {
-                        console.log("You beat Grant! You da best!");
+                        console.log("You beat Grant! You are the best!");
                         break;
                     }
                     console.log(`${name} wins: ${wins}`);
                     grantHealth = 10;
                 }
             } else if (userMove.toLowerCase() === "quit") {
-                console.log("Hey, maybe next time you can get your life together and play this simple game.");
+                console.log("Hey, maybe next time!");
                 break;
             }
         }
