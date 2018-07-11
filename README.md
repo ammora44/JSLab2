@@ -10,7 +10,7 @@ Rearrange your code to include these functions.
   a. Prompt the user if they would like to play, and if they say yes...
     i. Allow the user to enter the character’s name.
     ii. Call the startCombat function.
-2. startCombatfunction. Whenexecuted,thiswillruntheentireloopyoucreatedinPart One.
+2. startCombatfunction. Whenexecuted,this will run the entire loop you created in Part One.
 3. getDamage function. This will return a number between 1 and 5 that will be used to decide how much damage the user and Grant will deal each round.
 
 Additional Changes:
